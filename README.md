@@ -4,6 +4,6 @@ This is a repo for the homework3 of Computational Physics: solving the Burger eq
 ## Introduction
 In this homework we aim to solve the nonlinear partial differential equation
 
-$$ \partial_t u(t, x) \partial_x(u^2(t, x)) = 0 $$
+<p align="center"><img src="/tex/241550eae1167b281300cdfc17f856e9.svg?invert_in_darkmode&sanitize=true" align=middle width=171.48040964999998pt height=18.312383099999998pt/></p>
 
 which is also well-known as the inviscid Burgers equation. 
