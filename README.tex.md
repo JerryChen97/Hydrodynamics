@@ -56,6 +56,12 @@ Not everywhere (w.r.t. $x$) our minmod method will reach the order of 2.
 This is because only at the shock region, where the numerical method shows obvious errors, the difference of errors among different resolutions can be presented well.
 ![alt text](allerrors.png "Title")
 ![alt text](pointwise.png "Title")
+Other conclusions are quite similar. 
+For the details please check the comments in the `burgers.ipynb`.
 
 ## Acknowledgement
 Thanks to Cristian for elaborate discussion with me regarding all respects of this homework.
+
+## Reference
+- Burgers Equation, Mikel Landajuela, http://www.bcamath.org/projects/NUMERIWAVES/Burgers_Equation_M_Landajuela.pdf
+- Verifying Numerical Convergence Rate, http://www.csc.kth.se/utbildning/kth/kurser/DN2255/ndiff13/ConvRate.pdf
