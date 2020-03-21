@@ -45,8 +45,14 @@ However, such a solution cannot guarantee itself to be a function, which is nece
 After a certain point $t_B$, this characteristic solution will not hold anymore, along with the formation of shock.
 
 ## Numerical Calculation
-In this homework we calculated the convergence order of the numerical method offered by William:
+In this homework we calculated the convergence order of the numerical method offered by William at different resolutions:
 - Before the formation of shock, we compare the numerical results with the theoretical implicit solution. The original code of Will is edited by me to be able to offer an exact solution inside the class.
 - After the formation of shock, we compare the numerical results with each other to approximate the convergence order, i.e.
 $$ \log_2 \frac{u_h - u_{h/2}}{u_{h/2} - u_{h/4}} $$
 where $h$ is the lattice space.
+
+## Findings
+Not everywhere (w.r.t. $x$) our minmod method will reach the order of 2.
+This is because only at the shock region, where the numerical method shows obvious errors, the difference of errors among different resolutions can be presented well.
+![alt text](allerrors.png "Title")
+
