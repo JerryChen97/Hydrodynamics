@@ -27,8 +27,14 @@ However, such a solution cannot guarantee itself to be a function, which is nece
 After a certain point <img src="/tex/f72fc41d42dcd7a00b572b76be6d4d81.svg?invert_in_darkmode&sanitize=true" align=middle width=16.42873814999999pt height=20.221802699999984pt/>, this characteristic solution will not hold anymore, along with the formation of shock.
 
 ## Numerical Calculation
-In this homework we calculated the convergence order of the numerical method offered by William:
+In this homework we calculated the convergence order of the numerical method offered by William at different resolutions:
 - Before the formation of shock, we compare the numerical results with the theoretical implicit solution. The original code of Will is edited by me to be able to offer an exact solution inside the class.
 - After the formation of shock, we compare the numerical results with each other to approximate the convergence order, i.e.
 <p align="center"><img src="/tex/cf4ccdf1db76e29d14aeb7bcd42ba4e6.svg?invert_in_darkmode&sanitize=true" align=middle width=115.84265384999999pt height=38.96533905pt/></p>
 where <img src="/tex/2ad9d098b937e46f9f58968551adac57.svg?invert_in_darkmode&sanitize=true" align=middle width=9.47111549999999pt height=22.831056599999986pt/> is the lattice space.
+
+## Findings
+Not everywhere (w.r.t. <img src="/tex/332cc365a4987aacce0ead01b8bdcc0b.svg?invert_in_darkmode&sanitize=true" align=middle width=9.39498779999999pt height=14.15524440000002pt/>) our minmod method will reach the order of 2.
+This is because only at the shock region, where the numerical method shows obvious errors, the difference of errors among different resolutions can be presented well.
+![alt text](allerrors.png "Title")
+
