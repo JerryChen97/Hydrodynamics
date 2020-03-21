@@ -39,3 +39,5 @@ This is because only at the shock region, where the numerical method shows obvio
 ![alt text](allerrors.png "Title")
 ![alt text](pointwise.png "Title")
 
+## Acknowledgement
+Thanks to Cristian for elaborate discussion with me regarding all respects of this homework.
