@@ -37,4 +37,5 @@ where <img src="/tex/2ad9d098b937e46f9f58968551adac57.svg?invert_in_darkmode&san
 Not everywhere (w.r.t. <img src="/tex/332cc365a4987aacce0ead01b8bdcc0b.svg?invert_in_darkmode&sanitize=true" align=middle width=9.39498779999999pt height=14.15524440000002pt/>) our minmod method will reach the order of 2.
 This is because only at the shock region, where the numerical method shows obvious errors, the difference of errors among different resolutions can be presented well.
 ![alt text](allerrors.png "Title")
+![alt text](pointwise.png "Title")
 
