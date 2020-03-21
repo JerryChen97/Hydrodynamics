@@ -55,4 +55,5 @@ where $h$ is the lattice space.
 Not everywhere (w.r.t. $x$) our minmod method will reach the order of 2.
 This is because only at the shock region, where the numerical method shows obvious errors, the difference of errors among different resolutions can be presented well.
 ![alt text](allerrors.png "Title")
+![alt text](pointwise.png "Title")
 
